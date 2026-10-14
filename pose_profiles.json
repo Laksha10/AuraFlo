@@ -1,0 +1,231 @@
+{
+    "mountain": {
+      "display_name": "Mountain Pose",
+      "joints": {
+        "left_knee":      {"target": 175, "tolerance": 20},
+        "right_knee":     {"target": 175, "tolerance": 20},
+        "left_elbow":     {"target": 170, "tolerance": 20},
+        "right_elbow":    {"target": 170, "tolerance": 20},
+        "left_shoulder":  {"target": 15,  "tolerance": 20},
+        "right_shoulder": {"target": 15,  "tolerance": 20}
+      },
+      "easier_variant": null,
+      "harder_variant": "upward_salute",
+      "rest_pose": "childs_pose"
+    },
+  
+    "upward_salute": {
+      "display_name": "Upward Salute",
+      "joints": {
+        "left_knee":      {"target": 175, "tolerance": 20},
+        "right_knee":     {"target": 175, "tolerance": 20},
+        "left_elbow":     {"target": 170, "tolerance": 20},
+        "right_elbow":    {"target": 170, "tolerance": 20},
+        "left_shoulder":  {"target": 165, "tolerance": 20},
+        "right_shoulder": {"target": 165, "tolerance": 20}
+      },
+      "easier_variant": "mountain",
+      "harder_variant": "tree_left",
+      "rest_pose": "childs_pose"
+    },
+  
+    "star": {
+      "display_name": "Star Pose",
+      "joints": {
+        "left_knee":      {"target": 175, "tolerance": 20},
+        "right_knee":     {"target": 175, "tolerance": 20},
+        "left_elbow":     {"target": 170, "tolerance": 20},
+        "right_elbow":    {"target": 170, "tolerance": 20},
+        "left_shoulder":  {"target": 110, "tolerance": 20},
+        "right_shoulder": {"target": 110, "tolerance": 20}
+      },
+      "easier_variant": "mountain",
+      "harder_variant": "goddess",
+      "rest_pose": "childs_pose"
+    },
+  
+    "goddess": {
+      "display_name": "Goddess Pose",
+      "joints": {
+        "left_knee":      {"target": 110, "tolerance": 20},
+        "right_knee":     {"target": 110, "tolerance": 20},
+        "left_elbow":     {"target": 90,  "tolerance": 20},
+        "right_elbow":    {"target": 90,  "tolerance": 20},
+        "left_shoulder":  {"target": 90,  "tolerance": 20},
+        "right_shoulder": {"target": 90,  "tolerance": 20}
+      },
+      "easier_variant": "star",
+      "harder_variant": "garland",
+      "rest_pose": "childs_pose"
+    },
+  
+    "garland": {
+      "display_name": "Garland Pose (deep squat)",
+      "joints": {
+        "left_knee":      {"target": 50, "tolerance": 20},
+        "right_knee":     {"target": 50, "tolerance": 20},
+        "left_elbow":     {"target": 90, "tolerance": 20},
+        "right_elbow":    {"target": 90, "tolerance": 20}
+      },
+      "easier_variant": "goddess",
+      "harder_variant": null,
+      "rest_pose": "childs_pose"
+    },
+  
+    "tree_left": {
+      "display_name": "Tree Pose (left foot up)",
+      "joints": {
+        "left_knee":      {"target": 50,  "tolerance": 20},
+        "right_knee":     {"target": 175, "tolerance": 20},
+        "left_elbow":     {"target": 170, "tolerance": 20},
+        "right_elbow":    {"target": 170, "tolerance": 20},
+        "left_shoulder":  {"target": 165, "tolerance": 20},
+        "right_shoulder": {"target": 165, "tolerance": 20}
+      },
+      "easier_variant": "upward_salute",
+      "harder_variant": null,
+      "rest_pose": "childs_pose"
+    },
+  
+    "tree_right": {
+      "display_name": "Tree Pose (right foot up)",
+      "joints": {
+        "left_knee":      {"target": 175, "tolerance": 20},
+        "right_knee":     {"target": 50,  "tolerance": 20},
+        "left_elbow":     {"target": 170, "tolerance": 20},
+        "right_elbow":    {"target": 170, "tolerance": 20},
+        "left_shoulder":  {"target": 165, "tolerance": 20},
+        "right_shoulder": {"target": 165, "tolerance": 20}
+      },
+      "easier_variant": "upward_salute",
+      "harder_variant": null,
+      "rest_pose": "childs_pose"
+    },
+  
+    "warrior_2_left": {
+      "display_name": "Warrior II (left knee bent)",
+      "joints": {
+        "left_knee":      {"target": 100, "tolerance": 20},
+        "right_knee":     {"target": 175, "tolerance": 20},
+        "left_elbow":     {"target": 170, "tolerance": 20},
+        "right_elbow":    {"target": 170, "tolerance": 20},
+        "left_shoulder":  {"target": 90,  "tolerance": 20},
+        "right_shoulder": {"target": 90,  "tolerance": 20}
+      },
+      "easier_variant": "star",
+      "harder_variant": "extended_side_angle_left",
+      "rest_pose": "childs_pose"
+    },
+  
+    "warrior_2_right": {
+      "display_name": "Warrior II (right knee bent)",
+      "joints": {
+        "left_knee":      {"target": 175, "tolerance": 20},
+        "right_knee":     {"target": 100, "tolerance": 20},
+        "left_elbow":     {"target": 170, "tolerance": 20},
+        "right_elbow":    {"target": 170, "tolerance": 20},
+        "left_shoulder":  {"target": 90,  "tolerance": 20},
+        "right_shoulder": {"target": 90,  "tolerance": 20}
+      },
+      "easier_variant": "star",
+      "harder_variant": "extended_side_angle_right",
+      "rest_pose": "childs_pose"
+    },
+  
+    "reverse_warrior_left": {
+      "display_name": "Reverse Warrior (left knee bent)",
+      "joints": {
+        "left_knee":      {"target": 100, "tolerance": 20},
+        "right_knee":     {"target": 175, "tolerance": 20},
+        "left_elbow":     {"target": 170, "tolerance": 20},
+        "right_elbow":    {"target": 170, "tolerance": 20},
+        "left_shoulder":  {"target": 160, "tolerance": 20},
+        "right_shoulder": {"target": 30,  "tolerance": 20}
+      },
+      "easier_variant": "warrior_2_left",
+      "harder_variant": null,
+      "rest_pose": "childs_pose"
+    },
+  
+    "reverse_warrior_right": {
+      "display_name": "Reverse Warrior (right knee bent)",
+      "joints": {
+        "left_knee":      {"target": 175, "tolerance": 20},
+        "right_knee":     {"target": 100, "tolerance": 20},
+        "left_elbow":     {"target": 170, "tolerance": 20},
+        "right_elbow":    {"target": 170, "tolerance": 20},
+        "left_shoulder":  {"target": 30,  "tolerance": 20},
+        "right_shoulder": {"target": 160, "tolerance": 20}
+      },
+      "easier_variant": "warrior_2_right",
+      "harder_variant": null,
+      "rest_pose": "childs_pose"
+    },
+  
+    "triangle_left": {
+      "display_name": "Triangle Pose (reaching left)",
+      "joints": {
+        "left_knee":      {"target": 175, "tolerance": 20},
+        "right_knee":     {"target": 175, "tolerance": 20},
+        "left_elbow":     {"target": 170, "tolerance": 20},
+        "right_elbow":    {"target": 170, "tolerance": 20},
+        "left_shoulder":  {"target": 90,  "tolerance": 20},
+        "right_shoulder": {"target": 90,  "tolerance": 20}
+      },
+      "easier_variant": "star",
+      "harder_variant": "reverse_warrior_left",
+      "rest_pose": "childs_pose"
+    },
+  
+    "triangle_right": {
+      "display_name": "Triangle Pose (reaching right)",
+      "joints": {
+        "left_knee":      {"target": 175, "tolerance": 20},
+        "right_knee":     {"target": 175, "tolerance": 20},
+        "left_elbow":     {"target": 170, "tolerance": 20},
+        "right_elbow":    {"target": 170, "tolerance": 20},
+        "left_shoulder":  {"target": 90,  "tolerance": 20},
+        "right_shoulder": {"target": 90,  "tolerance": 20}
+      },
+      "easier_variant": "star",
+      "harder_variant": "reverse_warrior_right",
+      "rest_pose": "childs_pose"
+    },
+  
+    "extended_side_angle_left": {
+      "display_name": "Extended Side Angle (left knee bent)",
+      "joints": {
+        "left_knee":      {"target": 100, "tolerance": 20},
+        "right_knee":     {"target": 175, "tolerance": 20},
+        "left_elbow":     {"target": 90,  "tolerance": 20},
+        "right_elbow":    {"target": 170, "tolerance": 20},
+        "right_shoulder": {"target": 170, "tolerance": 20}
+      },
+      "easier_variant": "warrior_2_left",
+      "harder_variant": null,
+      "rest_pose": "childs_pose"
+    },
+  
+    "extended_side_angle_right": {
+      "display_name": "Extended Side Angle (right knee bent)",
+      "joints": {
+        "left_knee":      {"target": 175, "tolerance": 20},
+        "right_knee":     {"target": 100, "tolerance": 20},
+        "left_elbow":     {"target": 170, "tolerance": 20},
+        "right_elbow":    {"target": 90,  "tolerance": 20},
+        "left_shoulder":  {"target": 170, "tolerance": 20}
+      },
+      "easier_variant": "warrior_2_right",
+      "harder_variant": null,
+      "rest_pose": "childs_pose"
+    },
+  
+    "childs_pose": {
+      "display_name": "Child's Pose (rest)",
+      "joints": {},
+      "rest_seconds": 20,
+      "easier_variant": null,
+      "harder_variant": null,
+      "rest_pose": null
+    }
+  }

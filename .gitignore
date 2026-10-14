@@ -1,0 +1,17 @@
+# Python virtual environment (everyone makes their own with pip install -r requirements.txt)
+venv/
+.venv/
+
+# Python's compiled cache files
+__pycache__/
+*.pyc
+
+# The SQLite database is created when you run the app - it's your local session data
+*.db
+
+# The BlazePose model file (download link in README)
+*.task
+
+# Editor / OS clutter
+.vscode/
+.DS_Store
